@@ -15,7 +15,7 @@
 ;;; Variables
 
 (defgroup doom-stilla-theme nil
-  "Options for the `material dark' theme."
+  "Options for the `stilla' theme."
   :group 'doom-themes)
 
 (defcustom doom-stilla-padded-modeline doom-themes-padded-modeline
@@ -91,8 +91,8 @@ Can be an integer to determine the exact padding."
    (modeline-fg-alt comments)
 
    (-modeline-pad
-    (when doom-material-padded-modeline
-      (if (integerp doom-material-padded-modeline) doom-material-padded-modeline 4))))
+    (when doom-stilla-padded-modeline
+      (if (integerp doom-stilla-padded-modeline) doom-stilla-padded-modeline 4))))
 
 ;;;; Base theme face overrides
   (;;;; emacs
@@ -189,4 +189,4 @@ Can be an integer to determine the exact padding."
    (css-proprietary-property :foreground magenta)
    (css-selector :foreground yellow)))
 
-;;; Doom-material-theme.el ends here
+;;; doom-stilla-theme.el ends here
